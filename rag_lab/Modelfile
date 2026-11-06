@@ -1,0 +1,4 @@
+FROM llama3.1:8b-instruct-q4_K_M
+PARAMETER num_ctx 5120
+
+PARAMETER num_gpu 99
